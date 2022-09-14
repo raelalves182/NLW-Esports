@@ -14,7 +14,7 @@ const CardOne = () => {
           <h2>Meus jogos</h2>
           <p>Os games que eu mais curto jogar!</p>
 
-          <ul>
+          <ul className='games-list'>
             <li>
               <a 
                 target="_blank"
@@ -56,7 +56,7 @@ const CardTwo = () => {
           <h2>Canais e streamers</h2>
           <p>Lista de canais e transmissões que não perco!</p>
 
-          <ul>
+          <ul className='channel-list'>
             <li>
               <a 
                 target="_blank"
